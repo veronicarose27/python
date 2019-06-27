@@ -2,8 +2,8 @@ a=int(input(''))
 b=int(input(''))
 c=int(input(''))
 if(a > b and a > c):
-    print(a)
+    print(a);
 elif(b > a and b > c):
-    print(b)
+    print(b);
 else:
-    print(c)
+    print(c);
