@@ -1,8 +1,8 @@
 a=int(input(''))
 if a > 0:
     if a % 2 == 0:
-        print("even")
+        print("Even")
     else:
-        print("odd")
+        print("Odd")
 else:
     print("invalid")
