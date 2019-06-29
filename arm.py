@@ -1,0 +1,12 @@
+a=int(input())
+temp=a
+sum=0
+while(a>0):
+    dig=a%10
+    b=pow(dig,3)
+    sum=sum+b
+    a=a//10
+if(sum==temp):
+    print('yes')
+else:
+    print('no')
