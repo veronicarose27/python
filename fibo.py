@@ -4,8 +4,8 @@ y=1
 count=2
 print(x,y,end=" ")
 while(count<a):
-    z=x+y
-    print(z, end=" ")
+    q=x+y
+    print(q, end=" ")
     x=y
-    y=z
+    y=q
     count=count+1
