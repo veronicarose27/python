@@ -1,5 +1,5 @@
 h1,m1= map(int(input().split())
-h1,m1= map(int(input().split())
+h2,m2= map(int(input().split())
 if(h1>h2):
     z=h1-h2
     y=m1-m2
