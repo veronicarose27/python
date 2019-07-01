@@ -3,7 +3,7 @@ x=len(a)
 y=len(b)
 if(x>y):
     print(a)
-elif(y>x):
+elif(y==x):
     print(b)
 else:
-    print(a)
+    print(b)
