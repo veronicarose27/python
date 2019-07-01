@@ -1,2 +1,2 @@
-N=int(input())
-print(N+1)
+Nuu=int(input())
+print(Nuu+1)
