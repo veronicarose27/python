@@ -1,0 +1,11 @@
+a=(input())
+y=len(a)
+p=list(a)
+f=""
+if(y%2!=0):
+    p[int(y//2)]='*'    
+else:
+    p[int(y-1)//2]='*'
+    p[int(y//2)]='*'
+f=f.join(p)
+print(f)
